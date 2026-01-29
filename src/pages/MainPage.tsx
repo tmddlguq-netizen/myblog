@@ -39,7 +39,7 @@ const tagColors = [
   'bg-indigo-100 text-indigo-800 border-indigo-200',
 ];
 
-const getTagColor = (tag: string, index: number) => {
+const getTagColor = (_tag: string, index: number) => {
   return tagColors[index % tagColors.length];
 };
 

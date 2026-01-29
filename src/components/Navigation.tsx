@@ -13,7 +13,7 @@ export const Navigation = () => {
   const [searchValue, setSearchValue] = useState('');
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const [recentRefresh, setRecentRefresh] = useState(0);
+  const [, setRecentRefresh] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
